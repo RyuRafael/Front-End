@@ -1,0 +1,24 @@
+ .TiltuloPrincipal{color: rgb(25, 67, 180); font-size: 150px;}
+
+        .rr{background-color:aqua;font-size:  25px;}
+        #ttt{color: blueviolet; font-size: 25px;}
+
+
+        body
+        {
+            background-image:url(../HTML/meusite/gatos/gato_1.jpg);
+            background-repeat: repeat-x;
+            background-attachment: fixed;
+        
+        }
+
+
+        .caixa{
+            text-align: center;
+            margin: 30px;
+            padding: 100px;
+            border: 8px solid black;
+            width: min-content;
+            background-color: chocolate;
+
+        }

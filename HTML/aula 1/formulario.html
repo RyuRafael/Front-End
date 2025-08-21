@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="envia" method="post">]
+
+        <fieldset> <!--Cria uma caixa para agrupar informações dentro desta teg-->
+            <legend> formulario </legend> <!--nome da caixa-->
+
+            <label for="nome"> Nome </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" size="80 px" maxlength="50 px">
+            <!--tamanho da caixa do nome/nome que aparece dentro da caixa de digitar/ quantos caracteres-->
+            <br><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Digite sua senha" size="20" maxlength="10">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend> linguagens estudadas</legend>
+
+            <label for="lingua"> linguagem </label>
+            <input type="checkbox" name="lingua" value="c++"> c++
+            <input type="checkbox" name="lingua" value="java"> java
+            <input type="checkbox" name="lingua" value="python"> python
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend> Linguagem principal </legend>
+
+            <label for="linguagem"> escolher linguagem</label>
+            <input type="radio" name="linguagem" value="java"> java
+            <input type="radio" name="linguagem" value="c++"> c++
+            <input type="radio" name="linguagem" value="python"> python
+
+        </fieldset>
+
+        <br>
+
+        <label for="escola"> estudar</label>
+        <select name="escola">
+            <option value="back-end"> back-end</option>
+            <option value="front-end"> front-end</option>
+            <option value="full-stack"> full-stack</option>
+        </select>
+
+    </form>
+</body>
+
+</html>
