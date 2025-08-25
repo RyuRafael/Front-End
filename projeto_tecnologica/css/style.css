@@ -1,0 +1,26 @@
+/*
+******LIMPAR FORMATAÇÕES******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+******header******
+*/
+
+#header{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, a:visited{  /*a:link quando for visitado*/
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
